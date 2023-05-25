@@ -10,7 +10,7 @@
 
 Разработайте пакет, который бы предоставлял необходимые методы для работы с БД.
 
-API пакета storage должен позволять:
+_API_ пакета **storage** должен позволять:
 - Создавать новые задачи,
 - Получать список всех задач,
 - Получать список задач по автору,
@@ -22,5 +22,7 @@ API пакета storage должен позволять:
 
 ## env
 export dbuser=yourDBuser
-export dbpass=somestrongpassword
-export dbpath=dbhost.domain/dbname
+
+export dbpass=yourSomeStrongPassword
+
+export dbhost=yourDBhost.domain
